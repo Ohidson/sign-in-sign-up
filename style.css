@@ -16,3 +16,29 @@ body{
   height: 100vh;
   width: auto;
 }
+
+.form{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: #fff;
+  width: 90%;
+  max-width: 600px;
+  border-radius: 10px;
+  padding: 50px 60px 70px;
+  text-align: center;
+  opacity:0.8;
+  background: #eaeaea;
+}
+
+.form input{
+padding: 12px 8px;
+border-radius: 10px;
+background: transparent;
+border: ;
+outline: 0;
+display: block;
+margin: 20px auto;
+width: 80%;
+}

@@ -53,6 +53,8 @@ width: 80%;
 .btn:hover{
   background: #3c00a0;
   color: #fff;
+  cursor: pointer;
+  border: 0;
 }
 
 .btn-group{

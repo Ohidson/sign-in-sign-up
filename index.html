@@ -10,11 +10,15 @@
   <div class="content">
     <div class="form">
       <form action="#">
-        <h2>Sign Up</h2>
+        <h2 id="heading">Sign Up</h2>
          <input type="text" placeholder="Name">
-         <input type="text" placeholder="Password">
-         <p>Forget password? <a href="#">Sign here</a></p>
-        <button type="submit">Log In</button>
+         <input type="email" placeholder="Email">
+         <input type="password" placeholder="Password" id="passWord">
+         <p>Forget password? <a href="#">Click here</a></p>
+        <div class="btn-group">
+          <button type="submit" class="btn" id="signUp">Sign Up</button>
+          <button type="submit" class="btn" id="signIn">Log In</button>
+        </div>
       </form>
     </div>
   </div>
